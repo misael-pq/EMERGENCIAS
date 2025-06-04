@@ -1,0 +1,58 @@
+/* Fondo imagen en título */
+body {
+  background: linear-gradient(135deg, #ff7e5f, #feb47b, #ffcc33);
+  min-height: 100vh;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  margin: 0;
+  padding: 0;
+}
+.hospital-title {
+  position: relative;
+  height: 150px;
+  background: url('foto.png') center center/cover no-repeat;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: white;
+  text-shadow: 2px 2px 6px rgba(0,0,0,0.7);
+  border-radius: 8px;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.hospital-title h1 {
+  font-size: 2.5rem;
+  font-weight: 700;
+}
+
+/* Colores gravedad */
+.crítico {
+  background-color: #f8d7da !important;
+}
+.urgente {
+  background-color: #ffe5b4 !important;
+}
+.moderado {
+  background-color: #fff3cd !important;
+}
+.leve {
+  background-color: #d4edda !important;
+}
+
+/* Mejoras visuales */
+body {
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.btn-primary {
+  background-color: #007bff;
+  border: none;
+}
+
+.btn-primary:hover {
+  background-color: #0056b3;
+}
+
+/* Mensajes de error */
+.text-danger {
+  font-weight: 600;
+}
